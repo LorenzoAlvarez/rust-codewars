@@ -1,6 +1,11 @@
 pub mod printer_errors;
 pub mod get_the_middle_character;
 pub mod unique_in_order;
+pub mod count_and_digit;
+pub mod shortest_word;
+pub mod dont_give_me_five;
+pub mod make_the_deadfish_swim;
+pub mod buying_a_car;
 
 #[cfg(test)]
 mod tests {

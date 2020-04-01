@@ -22,6 +22,19 @@ Have fun coding it and please don't forget to vote and rank this kata! :-)
 
 I have also created other katas. Take a look if you enjoyed this kata!
 
+######
+Solution by n0b0
+
+fn find_missing_letter(chars: &[char]) -> char {
+    let first = chars[0] as u8;
+    let zipped = chars.iter().zip(first..);
+    for (c1, c2) in zipped {
+        if *c1 as u8 != c2{
+            return c2 as char;
+        }
+    }
+    unreachable!()
+}
 */
 
 fn find_missing_letter(chars: &[char]) -> char {

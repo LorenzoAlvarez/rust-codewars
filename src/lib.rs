@@ -6,6 +6,7 @@ pub mod shortest_word;
 pub mod dont_give_me_five;
 pub mod make_the_deadfish_swim;
 pub mod buying_a_car;
+pub mod find_the_missing_letter;
 
 #[cfg(test)]
 mod tests {
